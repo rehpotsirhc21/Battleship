@@ -1,0 +1,19 @@
+body {
+
+    background-image: url(/Battleship/images/sink.jpeg);
+    background-repeat: none;
+    background-size: cover; 
+}
+
+h1 {
+
+    color: red; 
+    text-align: center;
+}
+
+#btn {
+
+    text-align: center;
+    margin: auto; 
+    display: flex;
+}
