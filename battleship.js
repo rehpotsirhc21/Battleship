@@ -41,7 +41,7 @@ else if (guess < 0 || guess > 6 ) {
 }
 } 
 
-let stats = "you took " + guesses + ' guesses to sinnk the battle ship, \n\n which means your shooting accuracy was ' + ((3/guesses) * 100) + '%'; 
+let stats = "you took " + guesses + ' guesses to sink the battle ship, \n\n which means your shooting accuracy was ' + ((3/guesses) * 100) + '%'; 
 alert (stats); } 
 
 
