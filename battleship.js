@@ -18,10 +18,10 @@ while (isSunk == false) {
  //new code 
 
 // existing code   
-if (guess == null) {
-    return (alert ('You have aborted, are you too scared?'))
+if (guess == null || isNaN(guess)) {
+    return (alert ('You have aborted or chosen a non-numeric value. \n\n are you too scared? or just stupid?'))
 }
-else if (guess < 0 || guess > 6 ) {
+else if (guess < 0 || guess > 6) {
 
      (alert('Please enter a valid cell number. Your game will start over. \n\n Do you always have this much trouble following directions?')); 
  }
